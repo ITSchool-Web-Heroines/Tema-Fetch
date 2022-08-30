@@ -1,10 +1,8 @@
 import renderFact from "./renderFact";
 const btn = document.querySelector("#get-cat-fact");
 btn.addEventListener("click", () => {
-  let fact = "";
   console.log("S-a apasat butonul.");
-  const promise = fetch("https://catfact.ninja/fact");
-  promise
+  fetch("https://catfact.ninja/fact")
     .then(response => {
       return response.json();
     })
