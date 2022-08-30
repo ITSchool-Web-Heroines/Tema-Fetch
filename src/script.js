@@ -1,6 +1,6 @@
 import renderFact from "./renderFact"
 
-const btn = document.querySelector("#cat-fact");
+const btn = document.querySelector("#get-cat-fact");
 
 btn.addEventListener("click", () => {
     let fact = "";
