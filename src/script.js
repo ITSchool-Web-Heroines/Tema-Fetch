@@ -8,7 +8,7 @@ btn.addEventListener("click", () => {
         .then((data) => {
             console.log(data.fact);
             renderFact(data.fact);
-    })
+        })
  })
     
             
